@@ -18,6 +18,7 @@ console.log(4);
 
 myPromise.then(() => {
     console.log(5);
+    console.log('Pay load');    
     console.log('Sucess');        
 }).catch(() => {
     console.log('Failure');    
