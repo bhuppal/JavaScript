@@ -1,7 +1,7 @@
 let numbers = [1, 23 , 84, 34, 59, 39];
 
 for(let i=0; i < numbers.length; i++){
-    //console.log(numbers[i]);
+    console.log(numbers[i]);
 }
 
 let NewNumbers = [];
@@ -17,6 +17,6 @@ let forEachTest = numbers.forEach(function(number, j){
 let MapTest = numbers.map(function(number){
     return number*100;
 })
-//console.log(MapTest);
+console.log(MapTest);
 
 console.log('Hello'); 
