@@ -19,3 +19,4 @@ let MapTest = numbers.map(function(number){
 })
 //console.log(MapTest);
 
+console.log('Hello'); 
