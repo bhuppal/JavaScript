@@ -1,3 +1,6 @@
+let nums = [5, 10, 15, 20, 25]
+
+
 let numbers = [5, 10 , 15, 20, 25]
 
 var resultFilter = numbers.filter(function(number){

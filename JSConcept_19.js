@@ -18,6 +18,20 @@ function promiseFs(file){
     })    
 }
 
+
+function FilReadUsingPromise(file) {
+    return new Promise((resolve, reject) => {
+
+        fs.readFile(file, (err, data) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(data);
+            }
+        })
+    })
+}
+
 /*
 console.log(2);
 promiseFs('./JSConcepts_15.js')
