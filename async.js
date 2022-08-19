@@ -2518,20 +2518,20 @@ const transaction = [
       "cost": 86.29
     }
   ];  
-//   async function getTheData() {
-//       try{
-//         let response = await fetch("transaction");
-//         if(!response.ok) {
-//             throw new Error("Http status" + response.status);
-//         }
-//         let data  = await response.json();
-//         return data;
-//       }finally{
+  async function getTheData() {
+      try{
+        let response = await fetch(transaction);
+        if(!response.ok) {
+            throw new Error("Http status" + response.status);
+        }
+        let data  = await response.json();
+        return data;
+      }finally{
 
-//       }
-//   }
+      }
+  }
 
-// getTheData();
+getTheData();
 
 // async function getData(spinner) {
 //     spinner.start();
